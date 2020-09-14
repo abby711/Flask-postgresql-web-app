@@ -1,0 +1,25 @@
+<html>
+    <body>
+        <h1>HELLO SUCKERSSS</h1>
+    <!-- { % if quot -% }
+        <h2>{{quot}}</h2>
+    { % else -% }
+        <h2>no quote here</h2>
+    { % endif % } -->
+    <ul>
+        {% for i in b -%}
+        <li>{{i}}</li>
+        {% endfor %}
+    </ul>
+    <!-- @ap.route('/')
+    def index():
+        a=["apple","grape","berry"]
+        return render_template('index.html',b=a,quot='be kind')
+    @ap.route('/about')
+    def about():
+        return '<h1> HELLO WORLD from about</h1>'
+    @ap.route('/quotes')
+    def quotes():
+        return '<h1> HELLO WORLD from quote</h1>' -->
+    </body>
+</html>
